@@ -1357,7 +1357,7 @@ animation-name: slidein;
 }
 
 #information2{
-  margin:100px auto 20px auto;
+  margin:20px auto 20px auto;
   text-align: center;
   width: 100%;
   z-index: 3;
@@ -1557,7 +1557,7 @@ padding-right: 0;
   margin: auto 0;
   padding: auto 0;
   font-family: 'Nanum Myeongjo', serif;
-  color: #EAD5B7;
+  color: #D5BD9C;
 }
 
 @keyframes blink-effect {
