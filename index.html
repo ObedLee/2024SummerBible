@@ -1,0 +1,193 @@
+<!-- 대학부 새벗의 날 초청장 -->
+
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover, user-scalable=yes">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="shortcut icon" type="image/x-icon" href="img2/logo.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--링크복사, 위로가기 토글 아이콘-->
+  <link rel="stylesheet" type="text/css" href="./src/framework.css"><!--  로딩 -->
+  <link rel="stylesheet" type="text/css" href="./src/style.css"> <!--전체형태-->
+  <link rel="stylesheet" type="text/css" href="./src/slider.css">
+  <link rel="stylesheet" href="./src/fade.css">
+
+  <!-- 폰트어썸 -->
+  <script type="text/javascript" src="./src/jquery.js"></script>
+  <script type="text/javascript" src="./src/plugins.js"></script>
+  <script type="text/javascript" src="./src/underscore.js"></script>
+  <script type="text/javascript" src="./src/modernizr.custom.63321.js"></script>
+  <script type="text/javascript" src="./src/custom.js"></script>
+  <script charset="UTF-8" src="./src/kakao.js"></script>
+  <script type="text/javascript" src="./src/fade.js"></script>
+  <script>
+    setTimeout(function () {
+      location.reload();
+    }, 900000); // 900000밀리초 = 900초후 페이지 새로고침
+
+</script>
+		
+<meta property="og:image" content="img2/thumb.jpeg">
+<!-- 테스트 -->
+<title>2024 안디옥교회 여름성경학교</title>
+<meta property="og:description" content="7/25(목)~27(토)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#000000">
+
+</head>
+
+<!-- head 1차 정리 -->
+
+<body class="is-not-ios" onload="showImage()">
+
+  <!-- 로딩 이미지 -->
+  <div id="preloader" class="preloader-light">
+    <div id="preload-spinner"></div>
+    <h1></h1>
+    <p>잠시만 기다려주세요</p>
+  </div>
+
+  
+  
+  <!-- body start -->
+  <div id="page-transitions" style="min-height: 592px;">
+    
+    <!-- <div id="menu-hider" style="transition: all 300ms ease 0s;"></div> -->
+    <div class="page-content" style="transition: all 300ms ease 0s;">
+      <div class="main-img" id="thisone" >
+        <img id="background" src="img/back.png" alt="background">
+      </div>  
+
+      <div>
+        <img class="first-part" src="img/heart.png" alt="heart">
+      </div>
+     
+      <div id="first-part">
+        <img id="mt-50" class="first-part fadeup" src="img/title.png" alt="title">
+      </div>
+
+
+      <div id="second-part" class="">
+        <img id="mt-120" class="second-part reveal" src="img/wow.png" alt="cont1">
+        <img id="mt-50" class="second-part reveal width-120 left-10" src="img/summer.png" alt="cont2">
+        <img id="mt-50" class="second-part reveal" src="img/start.png" alt="cont3">
+        <img id="mt-50" class="second-part reveal" src="img/god.png" alt="cont4">
+      </div>
+
+      <div class="third-part">
+        <img id="mt-120" class="second-part reveal" src="img/love.png" alt="cont4">
+        <img id="mt-120" class="third-part reveal" src="img/date.png" alt="date">
+        <img id="mt-30" class="second-part reveal" src="img/time.png" alt="time">
+      </div>
+
+      <div id="mt-50" class="fourth-part reveal width-70">      
+        <div id="map" style="margin:auto; padding:0; margin-top:20px; width:100%; height: 300px; "></div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=aabc292c0136a9e1bcbabcc29f4a1a14"></script>
+        <script>
+          var container = document.getElementById('map');
+          var options = {
+            center: new kakao.maps.LatLng(37.3003998548915, 127.00802501422355),
+            level: 4
+          };
+
+        </script>
+      </div>
+
+      <!-- <div id="mb-100" class="reveal">
+      </div> -->
+
+      <div id="information1">
+        <a id="copyUrl" href="https://dmz1023.github.io/invit_playmom/"
+        class="shadow-small icon icon-round no-border icon-xs bg-tumblr"><i class="fa fa-link font-14"></i></a>
+        <a id="copyUrl" href="https://dmz1023.github.io/invit_playmom/" class="copyText">&nbsp;&nbsp;링크 복사하기</a>
+        <div> 
+          <textarea id="url" readonly="">https://dmz1023.github.io/invit_playmom/</textarea>
+          <script>
+            $("#copyUrl").click(function () {
+              $("#url").select();
+              document.execCommand('copy');
+              alert("초대장 링크(url주소)를 복사 하였습니다.");
+            });
+          </script>
+        </div>
+  
+      </div>
+
+      <div id="information1">
+        <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js"
+          integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+        <script>
+          Kakao.init('aabc292c0136a9e1bcbabcc29f4a1a14'); // 사용하려는 앱의 JavaScript 키 입력
+        </script>
+
+        <a id="kakaotalk-sharing-btn" href="javascript:shareMessage()" class="shadow-small icon icon-round no-border icon-xs">
+          <img src="https://developers.kakao.com/assets/img/about/logos/kakaotalksharing/kakaotalk_sharing_btn_medium.png" class="sns-logo"
+            alt="카카오톡 공유 보내기 버튼" />
+        </a>
+        <a id="kakaotalk-sharing-btn" href="javascript:shareMessage()" class="copyText">&nbsp;&nbsp;카카오톡으로 공유하기</a>
+
+        <script>
+          function shareMessage() {
+            Kakao.Share.sendScrap({
+              requestUrl: 'https://dmz1023.github.io/invit_playmom/',
+            });
+          }
+        </script>
+      </div>
+
+
+      <div id="information" class="footer-socials">
+  
+        <a href="https://playmom.co.kr/"
+        target="_blank" class="shadow-small icon icon-round no-border icon-xs "><img src="./img2/logo.png"
+          class="sns-logo"></a>   
+
+        <a href="https://cafe.naver.com/partyplaymom/"
+        target="_blank" class="shadow-small icon icon-round no-border icon-xs "><img src="./img2/logo_cafe.png"
+          class="sns-logo"></a>
+
+        <a href="https://www.instagram.com/playmom_official/"
+        target="_blank" class="shadow-small icon icon-round no-border icon-xs "><img src="./img2/insta.png"
+          class="sns-logo"></a>
+
+        <!-- <a href="https://dmz1023.github.io/invit_playmom/"
+        class="shadow-small icon icon-round no-border icon-xs back-to-top" style="border-radius: 100%;"><i
+          class="fa fa-angle-up" style="background-color: #d2d4d7;"></i></a> -->
+     
+    </div>
+    <div>
+      <img id="mtb-120" class="fiveth-part" src="img/antioch.png" alt="playmom">
+    </div>
+      <div id="information2">
+        <p class="copyText"> ©&nbsp;
+          
+        <script>
+          document.write(new Date().getFullYear())
+        </script> Antioch Church</a>, all rights reserved</p>  
+
+      </div>
+
+      </div>
+
+      <!-- 오시는길 끝 -->
+
+
+      <!-- 안내문구 끝
+      <div class="footer footer-no-padding" style="transition: all 300ms ease 0s;">
+        <div class="footer-socials">
+
+        <p class="center-text bottom-0"><img src="img/안디옥대학청년회1.png" class="sns-logo"></p>
+        <p class="footer-text"> ©&nbsp;<script>
+            document.write(new Date().getFullYear())
+          </script> Antioch Church</a>, all rights reserved</p>
+      </div> -->
+    </div>
+
+</body>
+
+</html>
